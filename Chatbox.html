@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        
+        <style>
+            
+            #blank
+            {
+               height: 200px;
+                
+                
+            }
+            #chatbox
+            {
+                height:500px;
+                background-image: url("background.jpg");
+                background-repeat: none;
+                background-size: cover;
+              
+            }
+            img
+            {
+                max-width:100%;
+                max-height:100%;
+            }
+            #chat
+            {
+                height:400px;
+                overflow:auto;
+            }
+            #left,#right
+            {
+                width:100%;
+                float: left;
+                margin-bottom:10px;
+            }
+            #image1, #text1
+            {
+                float:left;
+            }
+            #image1,#text1
+            {
+                margin-left:10px;
+                z-index:-1;
+            }
+            #image2,#text2
+            {
+                margin-right:10px;
+            }
+            #image2
+            {
+                margin-right:5px;
+                margin-top:10px;
+            }
+            #text1
+            {
+                background-color: #673ab7;
+                border-radius:20px;
+                margin-right:30px;
+                 overflow:auto;
+            }
+            #text2
+            {
+                background-color: #00acc1;
+                border-radius:20px;
+            }
+            #text11
+            {
+                padding-right:10px;
+                padding-left:10px;
+                color:whitesmoke;
+            }
+            #text22
+            {
+                padding-right:10px;
+                color:whitesmoke;
+                padding-left:10px;
+            }
+            #image1
+            { 
+                width: 30px;
+            }
+            #image2
+            {
+                width:20px;
+            }
+            #image2, #text2
+            {
+                float:right;
+            }
+            #speak
+            {
+                height:30px;
+                margin:5px;
+                
+                border-radius:30px;
+                background-color:white;
+                box-shadow: 0 0 1px #777;
+            }
+            #doc,#input,#emoji,#voice
+            {
+                float:left;
+            }
+            #doc
+            {
+                padding-left:13px;
+                padding-top:5px;
+            }
+            #input
+            {
+                margin-left:18px;
+                margin-top:3px;
+                color: #ccc;
+                
+            }
+            
+        </style>
+            <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                
+                    
+                    <div class="col-md-5">   </div>
+                    <div class="col-md-3 col-xs-12" >
+                        <h4 align="center">Vass</h4> 
+                        <div id="chatbox" style="border:solid black;border-radius: 16px;" >
+                            <div class="row">
+                                <div class="col-md-2 col-xs-2" style="padding:15px;padding-left: 30px;">
+                                    <div>
+                                        <i class="fa fa-arrow-left" aria-hidden="true" style="color:#456164;"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-xs-7" style="padding-top:15px;" ><b style="font-family: arial;font-size: 16px;color:#456164;">Sergery Brin</b></div>
+                                <div class="col-md-3 col-xs-3" style="padding-top:10px;padding-right:0px;">
+                                  
+                                        <img src="dpp.jpg" class="img-circle" height="30px" width="30px" style="margin-left:12px;">
+                                    
+                                </div>
+                            </div>
+                            
+                            
+                            <div id="chat" >
+                                <p align="center" style="font-size:9px;color:#456164;padding-top: 10px;">TODAY - 6:14 PM</p>
+                                <div id="right">
+                                <div id="image2" width="20px" height="20px"><img src="doubleticks.png" width="15px" height="15px"></div>
+                                <div id="text2"><p id="text22" style="margin-bottom: 5px;margin-top:5px;">Hello Sir!</p></div>
+                            </div>
+                            <div id="left" >
+                                <div id="image1"><img src="dpp.jpg" class="img-circle" height="30px" width="30px" ></div>
+                                <div id="text1" ><p id="text11" style="margin-bottom: 5px;margin-top:5px;">Hey Suyash</p></div>
+                            </div>
+                            <div id="right">
+                                <div id="image2" width="20px" height="20px"><img src="doubleticks.png" width="15px" height="15px"></div>
+                                <div id="text2"><p id="text22" style="margin-bottom: 5px;margin-top:5px;">Did I get an internship?</p></div>
+                                
+                            </div>
+                            <div id="left" >
+                                <div id="image1"><img src="dpp.jpg" class="img-circle" height="30px" width="30px" ></div>
+                                <div id="text1" ><p id="text11" style="margin-bottom: 5px;margin-top:5px;">Oh yes! You are good.</p></div>
+                            </div>
+                            <div id="right">
+                                <div id="image2" width="20px" height="20px"><img src="doubleticks.png" width="15px" height="15px"></div>
+                                <div id="text2"><p id="text22" style="margin-bottom: 5px;margin-top:5px;">Thank You Sir.</p></div>
+                                
+                            </div>
+                            <div id="left" >
+                                <div id="image1"><img src="dpp.jpg" class="img-circle" height="30px" width="30px" ></div>
+                                <div id="text1" ><p id="text11" style="margin-bottom: 5px;margin-top:5px;">You're welcome!</p></div>
+                            </div>
+                            <div id="right">
+                                <div id="image2" width="20px" height="20px"><img src="doubleticks.png" width="15px" height="15px"></div>
+                                <div id="text2"><p id="text22" style="margin-bottom: 5px;margin-top:5px;">When can I start?</p></div>
+                                
+                            </div>
+                            <div id="left" >
+                                <div id="image1"><img src="dpp.jpg" class="img-circle" height="30px" width="30px" ></div>
+                                <div id="text1" ><p id="text11" style="margin-bottom: 5px;margin-top:5px;">You can start from tomorrow.</p></div>
+                            </div>
+                            <div id="right">
+                                <div id="image2" width="20px" height="20px"><img src="doubleticks.png" width="15px" height="15px"></div>
+                                <div id="text2"><p id="text22" style="margin-bottom: 5px;margin-top:5px;">Thank you Sir.</p></div>
+                                
+                            </div>
+                            <div id="left" >
+                                <div id="image1"><img src="dpp.jpg" class="img-circle" height="30px" width="30px" ></div>
+                                <div id="text1" ><p id="text11" style="margin-bottom: 5px;margin-top:5px;">Ok.See you tomorrow.</p></div>
+                            </div>
+                            
+                            </div>
+                            
+                            <div id="speak">
+                                <div id="doc" ><a><i class="fa fa-plus" aria-hidden="true" style="color:#00acc1;"></i></a></div>
+                                <div id="input"><input type="text" placeholder="Say something.." style="border:none;width:190px;"></div>
+                                <div id="emoji" style="padding:5px 5px 0 0px;"><a><i class="fa fa-smile-o fa-lg" aria-hidden="true" style="color:#8da5b1;padding:3px 3px 0 5px;"></i></a></div>
+                                <div id="voice" style="padding:5px 5px 0 5px;"><a><i class="fa fa-microphone fa-lg" aria-hidden="true" style="color:#8da5b1;"></i></a></div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-4"></div>
+           
+                
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
